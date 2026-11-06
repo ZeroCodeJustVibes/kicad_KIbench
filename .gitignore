@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Secrets and local config (API keys etc.)
+.env
+.env.*
+*.local.json
+.claude/settings.local.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Scratch space
+.scratch/
+scratch/
+*.log
+
+# Files KiBench writes into KiCad projects (when testing on a project inside the repo)
+kibench-backups/
+.kibench-tmp/
+
+# KiCad autosave / backup / lock files
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl

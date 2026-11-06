@@ -1,0 +1,7 @@
+kicad-python>=0.4.0
+PySide6>=6.8,<6.12      # 6.12.0 leaks a reference to None on every QPainter call (crashes Python < 3.12)
+httpx>=0.27
+pymupdf>=1.24
+keyring>=24
+anthropic>=0.75
+cascadio
